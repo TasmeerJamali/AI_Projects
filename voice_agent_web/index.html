@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant Voice Agent</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+<div id="app">
+    <h1>Restaurant Voice Agent</h1>
+    <div id="call-setup">
+        <label for="call-type">Call Type:</label>
+        <select id="call-type">
+            <option value="inbound">Inbound</option>
+            <option value="outbound">Outbound</option>
+        </select>
+        <button id="start-btn">Start Call</button>
+    </div>
+    <div id="order-section" class="hidden">
+        <h2>Menu</h2>
+        <div id="item-form">
+            <label for="item-select">Item:</label>
+            <select id="item-select"></select>
+            <label for="size-select">Size:</label>
+            <select id="size-select"></select>
+            <label for="qty-input">Qty:</label>
+            <input id="qty-input" type="number" min="1" value="1">
+            <button id="add-item">Add Item</button>
+        </div>
+        <ul id="order-list"></ul>
+        <button id="finish-order">Finish Order</button>
+    </div>
+    <div id="summary-section" class="hidden">
+        <h2>Order Summary</h2>
+        <div id="summary"></div>
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

@@ -16,3 +16,32 @@ Research and Innovation: Staying updated with the latest advancements in AI to e
 Interdisciplinary Collaboration: Combining knowledge from various domains such as computer vision, robotics, and natural language processing to create comprehensive AI solutions.
 Scalable Solutions: Focusing on building scalable and efficient models that can be deployed in real-world applications.
 These projects not only enhanced my technical skills but also reinforced the importance of creativity, critical thinking, and teamwork in AI development. They stand as a testament to my commitment to learning and my ability to translate knowledge into impactful solutions.
+
+## Voice Agent Simulator
+
+This project includes a basic restaurant voice agent with two ways to try it:
+
+1. **Command line** – run `voice_agent_sim.py` to simulate a call.
+2. **Web UI** – open `voice_agent_web/index.html` for an app-like experience using HTML, CSS, JavaScript, and GSAP animations.
+
+### Download
+
+```bash
+git clone <repository-url>
+cd AI_Projects
+```
+
+Or download the repository as a ZIP archive and extract it.
+
+### Run the Command-Line Version
+
+```bash
+python3 voice_agent_sim.py inbound
+```
+
+Replace `inbound` with `outbound` to simulate an outbound call.
+
+### Run the Web Version
+
+Simply open `voice_agent_web/index.html` in your web browser. No server setup is required.
+
